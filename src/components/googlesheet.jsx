@@ -49,7 +49,8 @@ class GoogleSheet extends Component {
             />
             <table className="table">
               <thead>
-                {/* <tr>
+                {/* Not required
+                <tr>
                   {this.state.data.table.cols.map((colonne, index) => (
                     <th key={index}> {colonne.label} </th>
                   ))}
